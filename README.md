@@ -1,442 +1,232 @@
 proxies:
-  - {name: 1148, server: 45.15.166.75, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.81799919.xyz}}
-  - {name: 1284, server: 199.188.109.225, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.21026109.xyz}}
-  - {name: 1208, server: 83.136.183.155, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.49673080.xyz}}
-  - {name: 1301, server: 199.180.103.108, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.65177395.xyz}}
-  - {name: 660, server: 45.15.166.219, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.67147744.xyz}}
-  - {name: 1182, server: 198.2.199.205, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.50269124.xyz}}
-  - {name: 1265, server: 45.13.233.122, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.83575883.xyz}}
-  - {name: 738, server: 192.74.234.118, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.26287996.xyz}}
-  - {name: 1177, server: 45.15.166.254, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.20128450.xyz}}
-  - {name: 731, server: 45.82.254.19, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.52506478.xyz}}
-  - {name: 432, server: 142.4.97.228, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.69581284.xyz}}
-  - {name: 646, server: 104.233.177.146, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.18542159.xyz}}
-  - {name: 1280, server: 198.2.221.53, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.81697109.xyz}}
-  - {name: 729, server: 142.4.127.66, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.32517024.xyz}}
-  - {name: 1299, server: 198.2.195.177, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.62117013.xyz}}
-  - {name: 1152, server: 45.15.166.67, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.83819858.xyz}}
-  - {name: 1272, server: 142.0.138.163, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.30563593.xyz}}
-  - {name: 1300, server: 142.4.100.105, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.23660571.xyz}}
-  - {name: 134, server: 142.0.130.85, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.53048238.xyz}}
-  - {name: 1140, server: 45.153.202.70, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.77594113.xyz}}
-  - {name: 462, server: 170.178.170.107, port: 443, type: vmess, uuid: 4090dca2-8b93-4b4b-90f3-10f627ffce07, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.66744829.xyz}}
-  - {name: 1281, server: 198.2.221.15, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.49158503.xyz}}
-  - {name: 1308, server: 142.0.140.123, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.59314412.xyz}}
-  - {name: 1274, server: 192.74.239.79, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.59981397.xyz}}
-  - {name: 712, server: 192.74.230.251, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.43991711.xyz}}
-  - {name: 750, server: 142.0.136.244, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.47351350.xyz}}
-  - {name: 866, server: 170.178.183.27, port: 443, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.88797754.xyz}}
-  - {name: 1012, server: 64.32.13.37, port: 443, type: vmess, uuid: 4dc574eb-94e8-439e-aad6-4d74df1a38c5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.20876716.xyz}}
-  - {name: 1171, server: 142.0.129.203, port: 443, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.26411164.xyz}}
-  - {name: 123, server: 23.224.31.211, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.63592042.xyz}}
-  - {name: 1158, server: 45.15.145.77, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.72124151.xyz}}
-  - {name: 1043, server: 107.148.193.98, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.55531400.xyz}}
-  - {name: 1286, server: 142.4.114.171, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.66543515.xyz}}
-  - {name: 986, server: 107.167.9.54, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.75142579.xyz}}
-  - {name: 1279, server: 198.2.221.5, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.63010329.xyz}}
-  - {name: 659, server: 45.15.166.245, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.50390982.xyz}}
-  - {name: 1275, server: 198.2.221.40, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.15233923.xyz}}
-  - {name: 1107, server: 142.4.126.132, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.39611255.xyz}}
-  - {name: 453, server: 64.32.17.8, port: 443, type: vmess, uuid: c8620345-7687-4b2c-b9c1-d39d434e25d4, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.84506088.xyz}}
-  - {name: 732, server: 192.74.252.217, port: 443, type: vmess, uuid: b65da4af-a12a-4a59-9316-4549e12ba62c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.52575735.xyz}}
-  - {name: 172, server: 46.182.107.190, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.80911023.xyz}}
-  - {name: 935, server: 170.178.165.34, port: 443, type: vmess, uuid: 1f17fb81-2c5a-48d2-aa74-b19a648778a3, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.37264691.xyz}}
-  - {name: 1298, server: 198.2.200.100, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.48261105.xyz}}
-  - {name: 1318, server: 154.84.1.30, port: 443, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.69787197.xyz}}
+  - {name: 743, server: 199.188.107.251, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.32303676.xyz}}
+  - {name: 1284, server: 199.188.109.226, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.21026109.xyz}}
+  - {name: 646, server: 104.233.177.149, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.65510817.xyz}}
+  - {name: 712, server: 199.180.102.98, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.65962883.xyz}}
+  - {name: 706, server: 199.180.102.125, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.61494263.xyz}}
+  - {name: 1275, server: 198.2.221.41, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.71891316.xyz}}
+  - {name: 1276, server: 192.74.239.137, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.28392010.xyz}}
+  - {name: 1301, server: 199.180.103.108, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.80349845.xyz}}
+  - {name: 723, server: 137.175.58.186, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.87870837.xyz}}
+  - {name: 1304, server: 199.188.104.74, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.13751731.xyz}}
+  - {name: 1237, server: 194.55.133.195, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.77594113.xyz}}
+  - {name: 172, server: 46.182.107.191, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.73948352.xyz}}
+  - {name: 1107, server: 142.4.126.130, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.39611255.xyz}}
+  - {name: 684, server: 154.84.1.28, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.53188027.xyz}}
   - {name: 674, server: 46.182.107.58, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.84938863.xyz}}
-  - {name: 672, server: 45.83.118.75, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.82841552.xyz}}
-  - {name: 423, server: 46.182.107.112, port: 443, type: vmess, uuid: 3a3c8a9c-334e-4360-adb8-a80a57ddcbbf, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.80443772.xyz}}
-  - {name: 657, server: 46.182.107.17, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.86625279.xyz}}
-  - {name: 1303, server: 199.180.103.35, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.65305894.xyz}}
-  - {name: 408, server: 154.84.1.29, port: 443, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.69787197.xyz}}
-  - {name: 603, server: 46.182.107.66, port: 443, type: vmess, uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.86302353.xyz}}
-  - {name: 416, server: 154.84.1.61, port: 443, type: vmess, uuid: 990006bd-cb20-482f-9c97-f5fc65359605, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.22818784.xyz}}
-  - {name: 601, server: 46.182.107.79, port: 443, type: vmess, uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.29472851.xyz}}
-  - {name: 1032, server: 142.0.134.243, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.79502363.xyz}}
-  - {name: 412, server: 154.84.1.18, port: 443, type: vmess, uuid: de491802-233e-47f2-8c6c-d19bcf5bd56b, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.32710407.xyz}}
-  - {name: 585, server: 23.224.31.211, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.63592042.xyz}}
-  - {name: 270, server: 23.224.158.174, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.70427977.xyz}}
-  - {name: 1162, server: 46.182.107.139, port: 443, type: vmess, uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.74803806.xyz}}
+  - {name: 672, server: 45.83.118.78, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.46480243.xyz}}
+  - {name: 1111, server: 137.175.13.121, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.59854196.xyz}}
+  - {name: 719, server: 199.180.103.209, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.71818096.xyz}}
+  - {name: 🇭🇰 香港-HKBGP-Pro-09, server: hkp09.network-cdn-gw.cc, port: 48809, type: ss, cipher: chacha20-ietf-poly1305, password: a63b53df-ba17-4deb-90d7-19facd445ed7}
+  - {name: 🇭🇰 香港-HKBGP-Pro-08, server: hkp08.network-cdn-gw.cc, port: 48808, type: ss, cipher: chacha20-ietf-poly1305, password: a63b53df-ba17-4deb-90d7-19facd445ed7}
+  - {name: 🇭🇰 香港-HKBGP-Pro-06, server: hkp06.network-cdn-gw.cc, port: 48806, type: ss, cipher: chacha20-ietf-poly1305, password: a63b53df-ba17-4deb-90d7-19facd445ed7}
+  - {name: 🇭🇰 香港-HKBGP-Pro-05, server: hkp05.network-cdn-gw.cc, port: 49905, type: ss, cipher: chacha20-ietf-poly1305, password: a63b53df-ba17-4deb-90d7-19facd445ed7}
+  - {name: 🇭🇰 香港-HKBGP-Pro-02, server: hkp02.network-cdn-gw.cc, port: 49902, type: ss, cipher: chacha20-ietf-poly1305, password: a63b53df-ba17-4deb-90d7-19facd445ed7}
+  - {name: 🇭🇰 香港-HKBGP-Basic-10, server: hk10.network-cdn-gw.cc, port: 47710, type: ss, cipher: chacha20-ietf-poly1305, password: a63b53df-ba17-4deb-90d7-19facd445ed7}
+  - {name: 🇭🇰 香港-HKBGP-Basic-08, server: hk8.network-cdn-gw.cc, port: 47708, type: ss, cipher: chacha20-ietf-poly1305, password: a63b53df-ba17-4deb-90d7-19facd445ed7}
+  - {name: 🇭🇰 香港-HKBGP-Basic-06, server: hk6.network-cdn-gw.cc, port: 47706, type: ss, cipher: chacha20-ietf-poly1305, password: a63b53df-ba17-4deb-90d7-19facd445ed7}
+  - {name: 🇭🇰 香港-HKBGP-Basic-03, server: hk3.network-cdn-gw.cc, port: 47756, type: ss, cipher: chacha20-ietf-poly1305, password: a63b53df-ba17-4deb-90d7-19facd445ed7}
+  - {name: 🇭🇰 香港-HKBGP-Basic-01, server: hk1.network-cdn-gw.cc, port: 47795, type: ss, cipher: chacha20-ietf-poly1305, password: a63b53df-ba17-4deb-90d7-19facd445ed7}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 1148
+      - 743
       - 1284
-      - 1208
-      - 1301
-      - 660
-      - 1182
-      - 1265
-      - 738
-      - 1177
-      - 731
-      - 432
       - 646
-      - 1280
-      - 729
-      - 1299
-      - 1152
-      - 1272
-      - 1300
-      - 134
-      - 1140
-      - 462
-      - 1281
-      - 1308
-      - 1274
       - 712
-      - 750
-      - 866
-      - 1012
-      - 1171
-      - 123
-      - 1158
-      - 1043
-      - 1286
-      - 986
-      - 1279
-      - 659
+      - 706
       - 1275
-      - 1107
-      - 453
-      - 732
+      - 1276
+      - 1301
+      - 723
+      - 1304
+      - 1237
       - 172
-      - 935
-      - 1298
-      - 1318
+      - 1107
+      - 684
       - 674
       - 672
-      - 423
-      - 657
-      - 1303
-      - 408
-      - 603
-      - 416
-      - 601
-      - 1032
-      - 412
-      - 585
-      - 270
-      - 1162
+      - 1111
+      - 719
+      - 🇭🇰 香港-HKBGP-Pro-09
+      - 🇭🇰 香港-HKBGP-Pro-08
+      - 🇭🇰 香港-HKBGP-Pro-06
+      - 🇭🇰 香港-HKBGP-Pro-05
+      - 🇭🇰 香港-HKBGP-Pro-02
+      - 🇭🇰 香港-HKBGP-Basic-10
+      - 🇭🇰 香港-HKBGP-Basic-08
+      - 🇭🇰 香港-HKBGP-Basic-06
+      - 🇭🇰 香港-HKBGP-Basic-03
+      - 🇭🇰 香港-HKBGP-Basic-01
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 1148
+      - 743
       - 1284
-      - 1208
-      - 1301
-      - 660
-      - 1182
-      - 1265
-      - 738
-      - 1177
-      - 731
-      - 432
       - 646
-      - 1280
-      - 729
-      - 1299
-      - 1152
-      - 1272
-      - 1300
-      - 134
-      - 1140
-      - 462
-      - 1281
-      - 1308
-      - 1274
       - 712
-      - 750
-      - 866
-      - 1012
-      - 1171
-      - 123
-      - 1158
-      - 1043
-      - 1286
-      - 986
-      - 1279
-      - 659
+      - 706
       - 1275
-      - 1107
-      - 453
-      - 732
+      - 1276
+      - 1301
+      - 723
+      - 1304
+      - 1237
       - 172
-      - 935
-      - 1298
-      - 1318
+      - 1107
+      - 684
       - 674
       - 672
-      - 423
-      - 657
-      - 1303
-      - 408
-      - 603
-      - 416
-      - 601
-      - 1032
-      - 412
-      - 585
-      - 270
-      - 1162
+      - 1111
+      - 719
+      - 🇭🇰 香港-HKBGP-Pro-09
+      - 🇭🇰 香港-HKBGP-Pro-08
+      - 🇭🇰 香港-HKBGP-Pro-06
+      - 🇭🇰 香港-HKBGP-Pro-05
+      - 🇭🇰 香港-HKBGP-Pro-02
+      - 🇭🇰 香港-HKBGP-Basic-10
+      - 🇭🇰 香港-HKBGP-Basic-08
+      - 🇭🇰 香港-HKBGP-Basic-06
+      - 🇭🇰 香港-HKBGP-Basic-03
+      - 🇭🇰 香港-HKBGP-Basic-01
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 1148
+      - 743
       - 1284
-      - 1208
-      - 1301
-      - 660
-      - 1182
-      - 1265
-      - 738
-      - 1177
-      - 731
-      - 432
       - 646
-      - 1280
-      - 729
-      - 1299
-      - 1152
-      - 1272
-      - 1300
-      - 134
-      - 1140
-      - 462
-      - 1281
-      - 1308
-      - 1274
       - 712
-      - 750
-      - 866
-      - 1012
-      - 1171
-      - 123
-      - 1158
-      - 1043
-      - 1286
-      - 986
-      - 1279
-      - 659
+      - 706
       - 1275
-      - 1107
-      - 453
-      - 732
+      - 1276
+      - 1301
+      - 723
+      - 1304
+      - 1237
       - 172
-      - 935
-      - 1298
-      - 1318
+      - 1107
+      - 684
       - 674
       - 672
-      - 423
-      - 657
-      - 1303
-      - 408
-      - 603
-      - 416
-      - 601
-      - 1032
-      - 412
-      - 585
-      - 270
-      - 1162
+      - 1111
+      - 719
+      - 🇭🇰 香港-HKBGP-Pro-09
+      - 🇭🇰 香港-HKBGP-Pro-08
+      - 🇭🇰 香港-HKBGP-Pro-06
+      - 🇭🇰 香港-HKBGP-Pro-05
+      - 🇭🇰 香港-HKBGP-Pro-02
+      - 🇭🇰 香港-HKBGP-Basic-10
+      - 🇭🇰 香港-HKBGP-Basic-08
+      - 🇭🇰 香港-HKBGP-Basic-06
+      - 🇭🇰 香港-HKBGP-Basic-03
+      - 🇭🇰 香港-HKBGP-Basic-01
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 1148
+      - 743
       - 1284
-      - 1208
-      - 1301
-      - 660
-      - 1182
-      - 1265
-      - 738
-      - 1177
-      - 731
-      - 432
       - 646
-      - 1280
-      - 729
-      - 1299
-      - 1152
-      - 1272
-      - 1300
-      - 134
-      - 1140
-      - 462
-      - 1281
-      - 1308
-      - 1274
       - 712
-      - 750
-      - 866
-      - 1012
-      - 1171
-      - 123
-      - 1158
-      - 1043
-      - 1286
-      - 986
-      - 1279
-      - 659
+      - 706
       - 1275
-      - 1107
-      - 453
-      - 732
+      - 1276
+      - 1301
+      - 723
+      - 1304
+      - 1237
       - 172
-      - 935
-      - 1298
-      - 1318
+      - 1107
+      - 684
       - 674
       - 672
-      - 423
-      - 657
-      - 1303
-      - 408
-      - 603
-      - 416
-      - 601
-      - 1032
-      - 412
-      - 585
-      - 270
-      - 1162
+      - 1111
+      - 719
+      - 🇭🇰 香港-HKBGP-Pro-09
+      - 🇭🇰 香港-HKBGP-Pro-08
+      - 🇭🇰 香港-HKBGP-Pro-06
+      - 🇭🇰 香港-HKBGP-Pro-05
+      - 🇭🇰 香港-HKBGP-Pro-02
+      - 🇭🇰 香港-HKBGP-Basic-10
+      - 🇭🇰 香港-HKBGP-Basic-08
+      - 🇭🇰 香港-HKBGP-Basic-06
+      - 🇭🇰 香港-HKBGP-Basic-03
+      - 🇭🇰 香港-HKBGP-Basic-01
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 1148
+      - 743
       - 1284
-      - 1208
-      - 1301
-      - 660
-      - 1182
-      - 1265
-      - 738
-      - 1177
-      - 731
-      - 432
       - 646
-      - 1280
-      - 729
-      - 1299
-      - 1152
-      - 1272
-      - 1300
-      - 134
-      - 1140
-      - 462
-      - 1281
-      - 1308
-      - 1274
       - 712
-      - 750
-      - 866
-      - 1012
-      - 1171
-      - 123
-      - 1158
-      - 1043
-      - 1286
-      - 986
-      - 1279
-      - 659
+      - 706
       - 1275
-      - 1107
-      - 453
-      - 732
+      - 1276
+      - 1301
+      - 723
+      - 1304
+      - 1237
       - 172
-      - 935
-      - 1298
-      - 1318
+      - 1107
+      - 684
       - 674
       - 672
-      - 423
-      - 657
-      - 1303
-      - 408
-      - 603
-      - 416
-      - 601
-      - 1032
-      - 412
-      - 585
-      - 270
-      - 1162
+      - 1111
+      - 719
+      - 🇭🇰 香港-HKBGP-Pro-09
+      - 🇭🇰 香港-HKBGP-Pro-08
+      - 🇭🇰 香港-HKBGP-Pro-06
+      - 🇭🇰 香港-HKBGP-Pro-05
+      - 🇭🇰 香港-HKBGP-Pro-02
+      - 🇭🇰 香港-HKBGP-Basic-10
+      - 🇭🇰 香港-HKBGP-Basic-08
+      - 🇭🇰 香港-HKBGP-Basic-06
+      - 🇭🇰 香港-HKBGP-Basic-03
+      - 🇭🇰 香港-HKBGP-Basic-01
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 1148
+      - 743
       - 1284
-      - 1208
-      - 1301
-      - 660
-      - 1182
-      - 1265
-      - 738
-      - 1177
-      - 731
-      - 432
       - 646
-      - 1280
-      - 729
-      - 1299
-      - 1152
-      - 1272
-      - 1300
-      - 134
-      - 1140
-      - 462
-      - 1281
-      - 1308
-      - 1274
       - 712
-      - 750
-      - 866
-      - 1012
-      - 1171
-      - 123
-      - 1158
-      - 1043
-      - 1286
-      - 986
-      - 1279
-      - 659
+      - 706
       - 1275
-      - 1107
-      - 453
-      - 732
+      - 1276
+      - 1301
+      - 723
+      - 1304
+      - 1237
       - 172
-      - 935
-      - 1298
-      - 1318
+      - 1107
+      - 684
       - 674
       - 672
-      - 423
-      - 657
-      - 1303
-      - 408
-      - 603
-      - 416
-      - 601
-      - 1032
-      - 412
-      - 585
-      - 270
-      - 1162
+      - 1111
+      - 719
+      - 🇭🇰 香港-HKBGP-Pro-09
+      - 🇭🇰 香港-HKBGP-Pro-08
+      - 🇭🇰 香港-HKBGP-Pro-06
+      - 🇭🇰 香港-HKBGP-Pro-05
+      - 🇭🇰 香港-HKBGP-Pro-02
+      - 🇭🇰 香港-HKBGP-Basic-10
+      - 🇭🇰 香港-HKBGP-Basic-08
+      - 🇭🇰 香港-HKBGP-Basic-06
+      - 🇭🇰 香港-HKBGP-Basic-03
+      - 🇭🇰 香港-HKBGP-Basic-01
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -459,64 +249,34 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 1148
+      - 743
       - 1284
-      - 1208
-      - 1301
-      - 660
-      - 1182
-      - 1265
-      - 738
-      - 1177
-      - 731
-      - 432
       - 646
-      - 1280
-      - 729
-      - 1299
-      - 1152
-      - 1272
-      - 1300
-      - 134
-      - 1140
-      - 462
-      - 1281
-      - 1308
-      - 1274
       - 712
-      - 750
-      - 866
-      - 1012
-      - 1171
-      - 123
-      - 1158
-      - 1043
-      - 1286
-      - 986
-      - 1279
-      - 659
+      - 706
       - 1275
-      - 1107
-      - 453
-      - 732
+      - 1276
+      - 1301
+      - 723
+      - 1304
+      - 1237
       - 172
-      - 935
-      - 1298
-      - 1318
+      - 1107
+      - 684
       - 674
       - 672
-      - 423
-      - 657
-      - 1303
-      - 408
-      - 603
-      - 416
-      - 601
-      - 1032
-      - 412
-      - 585
-      - 270
-      - 1162
+      - 1111
+      - 719
+      - 🇭🇰 香港-HKBGP-Pro-09
+      - 🇭🇰 香港-HKBGP-Pro-08
+      - 🇭🇰 香港-HKBGP-Pro-06
+      - 🇭🇰 香港-HKBGP-Pro-05
+      - 🇭🇰 香港-HKBGP-Pro-02
+      - 🇭🇰 香港-HKBGP-Basic-10
+      - 🇭🇰 香港-HKBGP-Basic-08
+      - 🇭🇰 香港-HKBGP-Basic-06
+      - 🇭🇰 香港-HKBGP-Basic-03
+      - 🇭🇰 香港-HKBGP-Basic-01
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
