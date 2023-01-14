@@ -1,323 +1,484 @@
 proxies:
-  - {name: 🏳️‍🌈 香港原生1(最新更新时间1月1日), server: 199.15.79.135, port: 57319, type: vmess, uuid: cbe25e92-4f7e-4ed3-8436-14ac50a8df78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港BGP-负载均衡主线, server: hk.llzzff.xyz, port: 61134, type: trojan, password: 675b0c3a-e47a-480d-ad21-49e7a694fa5b, sni: hk.llzzff.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 香港BGP-负载均衡-2, server: hk.llzzff.xyz, port: 61134, type: trojan, password: 675b0c3a-e47a-480d-ad21-49e7a694fa5b, sni: hk.llzzff.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 香港BGP-负载均衡-3, server: hk.llzzff.xyz, port: 61134, type: trojan, password: 675b0c3a-e47a-480d-ad21-49e7a694fa5b, sni: hk.llzzff.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 香港BGP-负载均衡-4, server: hk.llzzff.xyz, port: 61134, type: trojan, password: 675b0c3a-e47a-480d-ad21-49e7a694fa5b, sni: hk.llzzff.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 香港BGP-负载均衡-5, server: hk.llzzff.xyz, port: 61134, type: trojan, password: 675b0c3a-e47a-480d-ad21-49e7a694fa5b, sni: hk.llzzff.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 香港BGP-负载均衡-6, server: hk.llzzff.xyz, port: 61134, type: trojan, password: 675b0c3a-e47a-480d-ad21-49e7a694fa5b, sni: hk.llzzff.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 日本-1, server: bgp.yumitang.lol, port: 52666, type: vmess, uuid: 675b0c3a-e47a-480d-ad21-49e7a694fa5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 日本-2, server: bgp.yumitang.lol, port: 52666, type: vmess, uuid: 675b0c3a-e47a-480d-ad21-49e7a694fa5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾-1, server: bgp.yumitang.lol, port: 52665, type: vmess, uuid: 675b0c3a-e47a-480d-ad21-49e7a694fa5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾-2, server: bgp.yumitang.lol, port: 52665, type: vmess, uuid: 675b0c3a-e47a-480d-ad21-49e7a694fa5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡-1, server: bgp.yumitang.lol, port: 52667, type: vmess, uuid: 675b0c3a-e47a-480d-ad21-49e7a694fa5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡-2, server: bgp.yumitang.lol, port: 52667, type: vmess, uuid: 675b0c3a-e47a-480d-ad21-49e7a694fa5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇲 美国-1, server: bgp.yumitang.lol, port: 52668, type: vmess, uuid: 675b0c3a-e47a-480d-ad21-49e7a694fa5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇲 美国-2, server: bgp.yumitang.lol, port: 52668, type: vmess, uuid: 675b0c3a-e47a-480d-ad21-49e7a694fa5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国-1, server: hg.yumitang.lol, port: 61134, type: trojan, password: 675b0c3a-e47a-480d-ad21-49e7a694fa5b, sni: hg.yumitang.lol, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国-2, server: hg.yumitang.lol, port: 61134, type: trojan, password: 675b0c3a-e47a-480d-ad21-49e7a694fa5b, sni: hg.yumitang.lol, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国-3, server: hg.yumitang.lol, port: 61134, type: trojan, password: 675b0c3a-e47a-480d-ad21-49e7a694fa5b, sni: hg.yumitang.lol, skip-cert-verify: false}
-  - {name: 🇸🇬 SG新加坡001, server: sg.stablize.top, port: 443, type: trojan, password: d3da8ac8-5d7a-4714-b6a3-e3a753d1e088, sni: sg.stablize.top, skip-cert-verify: false}
-  - {name: 🇺🇲 USA美国001, server: usa.stablize.top, port: 443, type: trojan, password: d3da8ac8-5d7a-4714-b6a3-e3a753d1e088, sni: usa.stablize.top, skip-cert-verify: false}
-  - {name: 🇩🇪 DE德国001, server: de.stablize.top, port: 443, type: trojan, password: d3da8ac8-5d7a-4714-b6a3-e3a753d1e088, sni: de.stablize.top, skip-cert-verify: false}
-  - {name: 🇯🇵 JP日本001, server: jp.stablize.top, port: 443, type: trojan, password: d3da8ac8-5d7a-4714-b6a3-e3a753d1e088, sni: jp.stablize.top, skip-cert-verify: false}
-  - {name: 🇨🇦 CA加拿大001, server: ca.stablize.top, port: 443, type: trojan, password: d3da8ac8-5d7a-4714-b6a3-e3a753d1e088, sni: ca.stablize.top, skip-cert-verify: false}
-  - {name: 🇦🇺 AU澳大利亚001, server: ap.stablize.top, port: 443, type: trojan, password: d3da8ac8-5d7a-4714-b6a3-e3a753d1e088, sni: ap.stablize.top, skip-cert-verify: false}
-  - {name: 🇬🇧 UK英国001, server: uk.stablize.top, port: 443, type: trojan, password: d3da8ac8-5d7a-4714-b6a3-e3a753d1e088, sni: uk.stablize.top, skip-cert-verify: false}
-  - {name: 🇸🇬 SG新加坡002, server: sg.stablize.top, port: 443, type: trojan, password: d3da8ac8-5d7a-4714-b6a3-e3a753d1e088, sni: sg.stablize.top, skip-cert-verify: false}
-  - {name: 🇸🇬 SG新加坡003, server: sg.stablize.top, port: 443, type: trojan, password: d3da8ac8-5d7a-4714-b6a3-e3a753d1e088, sni: sg.stablize.top, skip-cert-verify: false}
-  - {name: 🇺🇲 USA美国002, server: usa.stablize.top, port: 443, type: trojan, password: d3da8ac8-5d7a-4714-b6a3-e3a753d1e088, sni: usa.stablize.top, skip-cert-verify: false}
-  - {name: 🇺🇲 USA美国003, server: usa.stablize.top, port: 443, type: trojan, password: d3da8ac8-5d7a-4714-b6a3-e3a753d1e088, sni: usa.stablize.top, skip-cert-verify: false}
-  - {name: 🇩🇪 DE德国002, server: de.stablize.top, port: 443, type: trojan, password: d3da8ac8-5d7a-4714-b6a3-e3a753d1e088, sni: de.stablize.top, skip-cert-verify: false}
-  - {name: 🇩🇪 DE德国003, server: de.stablize.top, port: 443, type: trojan, password: d3da8ac8-5d7a-4714-b6a3-e3a753d1e088, sni: de.stablize.top, skip-cert-verify: false}
-  - {name: 🇯🇵 JP日本002, server: jp.stablize.top, port: 443, type: trojan, password: d3da8ac8-5d7a-4714-b6a3-e3a753d1e088, sni: jp.stablize.top, skip-cert-verify: false}
-  - {name: 🇯🇵 JP日本003, server: jp.stablize.top, port: 443, type: trojan, password: d3da8ac8-5d7a-4714-b6a3-e3a753d1e088, sni: jp.stablize.top, skip-cert-verify: false}
-  - {name: 🇨🇦 CA加拿大002, server: ca.stablize.top, port: 443, type: trojan, password: d3da8ac8-5d7a-4714-b6a3-e3a753d1e088, sni: ca.stablize.top, skip-cert-verify: false}
-  - {name: 🇨🇦 CA加拿大003, server: ca.stablize.top, port: 443, type: trojan, password: d3da8ac8-5d7a-4714-b6a3-e3a753d1e088, sni: ca.stablize.top, skip-cert-verify: false}
-  - {name: 🇦🇺 AU澳大利亚002, server: ap.stablize.top, port: 443, type: trojan, password: d3da8ac8-5d7a-4714-b6a3-e3a753d1e088, sni: ap.stablize.top, skip-cert-verify: false}
-  - {name: 🇦🇺 AU澳大利亚003, server: ap.stablize.top, port: 443, type: trojan, password: d3da8ac8-5d7a-4714-b6a3-e3a753d1e088, sni: ap.stablize.top, skip-cert-verify: false}
-  - {name: 🇬🇧 UK英国002, server: uk.stablize.top, port: 443, type: trojan, password: d3da8ac8-5d7a-4714-b6a3-e3a753d1e088, sni: uk.stablize.top, skip-cert-verify: false}
-  - {name: lu卢森堡001, server: lu.stablize.top, port: 443, type: trojan, password: d3da8ac8-5d7a-4714-b6a3-e3a753d1e088, sni: lu.stablize.top, skip-cert-verify: false}
-  - {name: lu卢森堡002, server: lu.stablize.top, port: 443, type: trojan, password: d3da8ac8-5d7a-4714-b6a3-e3a753d1e088, sni: lu.stablize.top, skip-cert-verify: false}
-  - {name: lu卢森堡003, server: lu.stablize.top, port: 443, type: trojan, password: d3da8ac8-5d7a-4714-b6a3-e3a753d1e088, sni: lu.stablize.top, skip-cert-verify: false}
+  - {name: 1275, server: 142.0.130.75, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.71891316.xyz}}
+  - {name: 711, server: 199.188.106.218, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.30688838.xyz}}
+  - {name: 1281, server: 199.188.111.60, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.62317155.xyz}}
+  - {name: 1301, server: 142.4.126.151, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.80349845.xyz}}
+  - {name: 1272, server: 198.2.192.155, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.78280643.xyz}}
+  - {name: 1107, server: 142.0.142.123, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.80128693.xyz}}
+  - {name: 661, server: 74.217.179.178, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.29004003.xyz}}
+  - {name: 1111, server: 142.0.138.29, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.35617630.xyz}}
+  - {name: 1152, server: 74.217.179.163, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.52033619.xyz}}
+  - {name: 1256, server: 74.217.179.146, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.71322451.xyz}}
+  - {name: 1330, server: 69.25.115.131, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.38713460.xyz}}
+  - {name: 656, server: 142.0.140.197, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.47486323.xyz}}
+  - {name: 423, server: 154.84.1.102, port: 443, type: vmess, uuid: 3a3c8a9c-334e-4360-adb8-a80a57ddcbbf, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.16046626.xyz}}
+  - {name: 422, server: 46.182.107.116, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.38991360.xyz}}
+  - {name: 1148, server: 74.217.179.154, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.43752841.xyz}}
+  - {name: 1336, server: 142.0.136.164, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.72764147.xyz}}
+  - {name: 716, server: 198.2.222.238, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.62488111.xyz}}
+  - {name: 695, server: 199.188.104.86, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.76381584.xyz}}
+  - {name: 416, server: 46.182.107.249, port: 443, type: vmess, uuid: 990006bd-cb20-482f-9c97-f5fc65359605, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.55020871.xyz}}
+  - {name: 1313, server: 107.148.198.221, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.29135019.xyz}}
+  - {name: 739, server: 192.74.240.75, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.83524650.xyz}}
+  - {name: 664, server: 46.182.107.13, port: 443, type: vmess, uuid: a7fa8f14-4fb6-4280-9005-d6bbe99c5da9, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.84550179.xyz}}
+  - {name: 1177, server: 74.217.179.186, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.39960822.xyz}}
+  - {name: 1151, server: 74.217.179.130, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.80817644.xyz}}
+  - {name: 408, server: 46.182.107.161, port: 443, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.41758112.xyz}}
+  - {name: 1299, server: 142.0.129.245, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.64830206.xyz}}
+  - {name: 686, server: 46.182.107.52, port: 443, type: vmess, uuid: 515bcb4d-0ba1-4cae-87cf-a047007eec54, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.73938022.xyz}}
+  - {name: 1298, server: 199.188.110.124, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.54092415.xyz}}
+  - {name: 1274, server: 142.4.110.37, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.19458162.xyz}}
+  - {name: 1249, server: 142.0.130.58, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.39838266.xyz}}
+  - {name: 1171, server: 142.0.136.8, port: 443, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.59274706.xyz}}
+  - {name: 412, server: 46.182.107.22, port: 443, type: vmess, uuid: de491802-233e-47f2-8c6c-d19bcf5bd56b, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.67970370.xyz}}
+  - {name: 1305, server: 142.0.140.177, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.85351920.xyz}}
+  - {name: 432, server: 107.148.198.12, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.22866947.xyz}}
+  - {name: 712, server: 199.180.102.106, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.71825152.xyz}}
+  - {name: 735, server: 107.148.203.11, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.13364896.xyz}}
+  - {name: 1208, server: 45.88.176.222, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.42065576.xyz}}
+  - {name: 1280, server: 142.0.128.137, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.14278907.xyz}}
+  - {name: 1282, server: 199.188.104.193, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.65096627.xyz}}
+  - {name: 1300, server: 142.0.132.215, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.28820006.xyz}}
+  - {name: 1153, server: 45.136.235.12, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.72470068.xyz}}
+  - {name: 659, server: 142.0.132.77, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.49419962.xyz}}
+  - {name: 1146, server: 69.25.115.142, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.69908657.xyz}}
+  - {name: 1297, server: 137.175.0.75, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.67023582.xyz}}
+  - {name: 684, server: 45.92.161.182, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.24125478.xyz}}
+  - {name: 706, server: 142.0.141.38, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.45202449.xyz}}
+  - {name: 1279, server: 199.188.107.156, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.66880458.xyz}}
+  - {name: 1304, server: 142.0.143.164, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.13751731.xyz}}
+  - {name: 1283, server: 142.0.142.230, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.68339205.xyz}}
+  - {name: 134, server: 142.0.140.83, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.13102187.xyz}}
+  - {name: 1284, server: 142.4.100.37, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.26167530.xyz}}
+  - {name: 734, server: 199.180.102.7, port: 443, type: vmess, uuid: b65da4af-a12a-4a59-9316-4549e12ba62c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.73332463.xyz}}
+  - {name: 1308, server: 142.0.137.9, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.70814184.xyz}}
+  - {name: 270, server: 23.224.14.75, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.53877990.xyz}}
+  - {name: 674, server: 46.182.107.56, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.84938863.xyz}}
+  - {name: 1246, server: 185.205.13.109, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.76074953.xyz}}
+  - {name: 193, server: 45.58.154.13, port: 443, type: vmess, uuid: 910c4255-2442-4ede-9070-6f06b85b32d8, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.17859445.xyz}}
+  - {name: 724, server: 142.0.140.104, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.82925560.xyz}}
+  - {name: 680, server: 23.224.166.78, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.46895908.xyz}}
+  - {name: 866, server: 64.32.4.189, port: 443, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.57588776.xyz}}
+  - {name: 719, server: 199.180.103.220, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.44509549.xyz}}
+  - {name: 723, server: 199.180.101.3, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.47722380.xyz}}
+  - {name: 659 2, server: 74.217.179.171, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.65307519.xyz}}
+  - {name: 1337, server: 45.88.176.133, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.79783333.xyz}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🏳️‍🌈 香港原生1(最新更新时间1月1日)
-      - 🇭🇰 香港BGP-负载均衡主线
-      - 🇭🇰 香港BGP-负载均衡-2
-      - 🇭🇰 香港BGP-负载均衡-3
-      - 🇭🇰 香港BGP-负载均衡-4
-      - 🇭🇰 香港BGP-负载均衡-5
-      - 🇭🇰 香港BGP-负载均衡-6
-      - 🇯🇵 日本-1
-      - 🇯🇵 日本-2
-      - 🇨🇳 台湾-1
-      - 🇨🇳 台湾-2
-      - 🇸🇬 新加坡-1
-      - 🇸🇬 新加坡-2
-      - 🇺🇲 美国-1
-      - 🇺🇲 美国-2
-      - 🇰🇷 韩国-1
-      - 🇰🇷 韩国-2
-      - 🇰🇷 韩国-3
-      - 🇸🇬 SG新加坡001
-      - 🇺🇲 USA美国001
-      - 🇩🇪 DE德国001
-      - 🇯🇵 JP日本001
-      - 🇨🇦 CA加拿大001
-      - 🇦🇺 AU澳大利亚001
-      - 🇬🇧 UK英国001
-      - 🇸🇬 SG新加坡002
-      - 🇸🇬 SG新加坡003
-      - 🇺🇲 USA美国002
-      - 🇺🇲 USA美国003
-      - 🇩🇪 DE德国002
-      - 🇩🇪 DE德国003
-      - 🇯🇵 JP日本002
-      - 🇯🇵 JP日本003
-      - 🇨🇦 CA加拿大002
-      - 🇨🇦 CA加拿大003
-      - 🇦🇺 AU澳大利亚002
-      - 🇦🇺 AU澳大利亚003
-      - 🇬🇧 UK英国002
-      - lu卢森堡001
-      - lu卢森堡002
-      - lu卢森堡003
+      - 1275
+      - 711
+      - 1281
+      - 1301
+      - 1272
+      - 1107
+      - 661
+      - 1111
+      - 1152
+      - 1256
+      - 1330
+      - 656
+      - 423
+      - 422
+      - 1148
+      - 1336
+      - 716
+      - 695
+      - 416
+      - 1313
+      - 739
+      - 664
+      - 1177
+      - 1151
+      - 408
+      - 1299
+      - 686
+      - 1298
+      - 1274
+      - 1249
+      - 1171
+      - 412
+      - 1305
+      - 432
+      - 712
+      - 735
+      - 1208
+      - 1280
+      - 1282
+      - 1300
+      - 1153
+      - 659
+      - 1146
+      - 1297
+      - 684
+      - 706
+      - 1279
+      - 1304
+      - 1283
+      - 134
+      - 1284
+      - 734
+      - 1308
+      - 270
+      - 674
+      - 1246
+      - 193
+      - 724
+      - 680
+      - 866
+      - 719
+      - 723
+      - 659 2
+      - 1337
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🏳️‍🌈 香港原生1(最新更新时间1月1日)
-      - 🇭🇰 香港BGP-负载均衡主线
-      - 🇭🇰 香港BGP-负载均衡-2
-      - 🇭🇰 香港BGP-负载均衡-3
-      - 🇭🇰 香港BGP-负载均衡-4
-      - 🇭🇰 香港BGP-负载均衡-5
-      - 🇭🇰 香港BGP-负载均衡-6
-      - 🇯🇵 日本-1
-      - 🇯🇵 日本-2
-      - 🇨🇳 台湾-1
-      - 🇨🇳 台湾-2
-      - 🇸🇬 新加坡-1
-      - 🇸🇬 新加坡-2
-      - 🇺🇲 美国-1
-      - 🇺🇲 美国-2
-      - 🇰🇷 韩国-1
-      - 🇰🇷 韩国-2
-      - 🇰🇷 韩国-3
-      - 🇸🇬 SG新加坡001
-      - 🇺🇲 USA美国001
-      - 🇩🇪 DE德国001
-      - 🇯🇵 JP日本001
-      - 🇨🇦 CA加拿大001
-      - 🇦🇺 AU澳大利亚001
-      - 🇬🇧 UK英国001
-      - 🇸🇬 SG新加坡002
-      - 🇸🇬 SG新加坡003
-      - 🇺🇲 USA美国002
-      - 🇺🇲 USA美国003
-      - 🇩🇪 DE德国002
-      - 🇩🇪 DE德国003
-      - 🇯🇵 JP日本002
-      - 🇯🇵 JP日本003
-      - 🇨🇦 CA加拿大002
-      - 🇨🇦 CA加拿大003
-      - 🇦🇺 AU澳大利亚002
-      - 🇦🇺 AU澳大利亚003
-      - 🇬🇧 UK英国002
-      - lu卢森堡001
-      - lu卢森堡002
-      - lu卢森堡003
+      - 1275
+      - 711
+      - 1281
+      - 1301
+      - 1272
+      - 1107
+      - 661
+      - 1111
+      - 1152
+      - 1256
+      - 1330
+      - 656
+      - 423
+      - 422
+      - 1148
+      - 1336
+      - 716
+      - 695
+      - 416
+      - 1313
+      - 739
+      - 664
+      - 1177
+      - 1151
+      - 408
+      - 1299
+      - 686
+      - 1298
+      - 1274
+      - 1249
+      - 1171
+      - 412
+      - 1305
+      - 432
+      - 712
+      - 735
+      - 1208
+      - 1280
+      - 1282
+      - 1300
+      - 1153
+      - 659
+      - 1146
+      - 1297
+      - 684
+      - 706
+      - 1279
+      - 1304
+      - 1283
+      - 134
+      - 1284
+      - 734
+      - 1308
+      - 270
+      - 674
+      - 1246
+      - 193
+      - 724
+      - 680
+      - 866
+      - 719
+      - 723
+      - 659 2
+      - 1337
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🏳️‍🌈 香港原生1(最新更新时间1月1日)
-      - 🇭🇰 香港BGP-负载均衡主线
-      - 🇭🇰 香港BGP-负载均衡-2
-      - 🇭🇰 香港BGP-负载均衡-3
-      - 🇭🇰 香港BGP-负载均衡-4
-      - 🇭🇰 香港BGP-负载均衡-5
-      - 🇭🇰 香港BGP-负载均衡-6
-      - 🇯🇵 日本-1
-      - 🇯🇵 日本-2
-      - 🇨🇳 台湾-1
-      - 🇨🇳 台湾-2
-      - 🇸🇬 新加坡-1
-      - 🇸🇬 新加坡-2
-      - 🇺🇲 美国-1
-      - 🇺🇲 美国-2
-      - 🇰🇷 韩国-1
-      - 🇰🇷 韩国-2
-      - 🇰🇷 韩国-3
-      - 🇸🇬 SG新加坡001
-      - 🇺🇲 USA美国001
-      - 🇩🇪 DE德国001
-      - 🇯🇵 JP日本001
-      - 🇨🇦 CA加拿大001
-      - 🇦🇺 AU澳大利亚001
-      - 🇬🇧 UK英国001
-      - 🇸🇬 SG新加坡002
-      - 🇸🇬 SG新加坡003
-      - 🇺🇲 USA美国002
-      - 🇺🇲 USA美国003
-      - 🇩🇪 DE德国002
-      - 🇩🇪 DE德国003
-      - 🇯🇵 JP日本002
-      - 🇯🇵 JP日本003
-      - 🇨🇦 CA加拿大002
-      - 🇨🇦 CA加拿大003
-      - 🇦🇺 AU澳大利亚002
-      - 🇦🇺 AU澳大利亚003
-      - 🇬🇧 UK英国002
-      - lu卢森堡001
-      - lu卢森堡002
-      - lu卢森堡003
+      - 1275
+      - 711
+      - 1281
+      - 1301
+      - 1272
+      - 1107
+      - 661
+      - 1111
+      - 1152
+      - 1256
+      - 1330
+      - 656
+      - 423
+      - 422
+      - 1148
+      - 1336
+      - 716
+      - 695
+      - 416
+      - 1313
+      - 739
+      - 664
+      - 1177
+      - 1151
+      - 408
+      - 1299
+      - 686
+      - 1298
+      - 1274
+      - 1249
+      - 1171
+      - 412
+      - 1305
+      - 432
+      - 712
+      - 735
+      - 1208
+      - 1280
+      - 1282
+      - 1300
+      - 1153
+      - 659
+      - 1146
+      - 1297
+      - 684
+      - 706
+      - 1279
+      - 1304
+      - 1283
+      - 134
+      - 1284
+      - 734
+      - 1308
+      - 270
+      - 674
+      - 1246
+      - 193
+      - 724
+      - 680
+      - 866
+      - 719
+      - 723
+      - 659 2
+      - 1337
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🏳️‍🌈 香港原生1(最新更新时间1月1日)
-      - 🇭🇰 香港BGP-负载均衡主线
-      - 🇭🇰 香港BGP-负载均衡-2
-      - 🇭🇰 香港BGP-负载均衡-3
-      - 🇭🇰 香港BGP-负载均衡-4
-      - 🇭🇰 香港BGP-负载均衡-5
-      - 🇭🇰 香港BGP-负载均衡-6
-      - 🇯🇵 日本-1
-      - 🇯🇵 日本-2
-      - 🇨🇳 台湾-1
-      - 🇨🇳 台湾-2
-      - 🇸🇬 新加坡-1
-      - 🇸🇬 新加坡-2
-      - 🇺🇲 美国-1
-      - 🇺🇲 美国-2
-      - 🇰🇷 韩国-1
-      - 🇰🇷 韩国-2
-      - 🇰🇷 韩国-3
-      - 🇸🇬 SG新加坡001
-      - 🇺🇲 USA美国001
-      - 🇩🇪 DE德国001
-      - 🇯🇵 JP日本001
-      - 🇨🇦 CA加拿大001
-      - 🇦🇺 AU澳大利亚001
-      - 🇬🇧 UK英国001
-      - 🇸🇬 SG新加坡002
-      - 🇸🇬 SG新加坡003
-      - 🇺🇲 USA美国002
-      - 🇺🇲 USA美国003
-      - 🇩🇪 DE德国002
-      - 🇩🇪 DE德国003
-      - 🇯🇵 JP日本002
-      - 🇯🇵 JP日本003
-      - 🇨🇦 CA加拿大002
-      - 🇨🇦 CA加拿大003
-      - 🇦🇺 AU澳大利亚002
-      - 🇦🇺 AU澳大利亚003
-      - 🇬🇧 UK英国002
-      - lu卢森堡001
-      - lu卢森堡002
-      - lu卢森堡003
+      - 1275
+      - 711
+      - 1281
+      - 1301
+      - 1272
+      - 1107
+      - 661
+      - 1111
+      - 1152
+      - 1256
+      - 1330
+      - 656
+      - 423
+      - 422
+      - 1148
+      - 1336
+      - 716
+      - 695
+      - 416
+      - 1313
+      - 739
+      - 664
+      - 1177
+      - 1151
+      - 408
+      - 1299
+      - 686
+      - 1298
+      - 1274
+      - 1249
+      - 1171
+      - 412
+      - 1305
+      - 432
+      - 712
+      - 735
+      - 1208
+      - 1280
+      - 1282
+      - 1300
+      - 1153
+      - 659
+      - 1146
+      - 1297
+      - 684
+      - 706
+      - 1279
+      - 1304
+      - 1283
+      - 134
+      - 1284
+      - 734
+      - 1308
+      - 270
+      - 674
+      - 1246
+      - 193
+      - 724
+      - 680
+      - 866
+      - 719
+      - 723
+      - 659 2
+      - 1337
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🏳️‍🌈 香港原生1(最新更新时间1月1日)
-      - 🇭🇰 香港BGP-负载均衡主线
-      - 🇭🇰 香港BGP-负载均衡-2
-      - 🇭🇰 香港BGP-负载均衡-3
-      - 🇭🇰 香港BGP-负载均衡-4
-      - 🇭🇰 香港BGP-负载均衡-5
-      - 🇭🇰 香港BGP-负载均衡-6
-      - 🇯🇵 日本-1
-      - 🇯🇵 日本-2
-      - 🇨🇳 台湾-1
-      - 🇨🇳 台湾-2
-      - 🇸🇬 新加坡-1
-      - 🇸🇬 新加坡-2
-      - 🇺🇲 美国-1
-      - 🇺🇲 美国-2
-      - 🇰🇷 韩国-1
-      - 🇰🇷 韩国-2
-      - 🇰🇷 韩国-3
-      - 🇸🇬 SG新加坡001
-      - 🇺🇲 USA美国001
-      - 🇩🇪 DE德国001
-      - 🇯🇵 JP日本001
-      - 🇨🇦 CA加拿大001
-      - 🇦🇺 AU澳大利亚001
-      - 🇬🇧 UK英国001
-      - 🇸🇬 SG新加坡002
-      - 🇸🇬 SG新加坡003
-      - 🇺🇲 USA美国002
-      - 🇺🇲 USA美国003
-      - 🇩🇪 DE德国002
-      - 🇩🇪 DE德国003
-      - 🇯🇵 JP日本002
-      - 🇯🇵 JP日本003
-      - 🇨🇦 CA加拿大002
-      - 🇨🇦 CA加拿大003
-      - 🇦🇺 AU澳大利亚002
-      - 🇦🇺 AU澳大利亚003
-      - 🇬🇧 UK英国002
-      - lu卢森堡001
-      - lu卢森堡002
-      - lu卢森堡003
+      - 1275
+      - 711
+      - 1281
+      - 1301
+      - 1272
+      - 1107
+      - 661
+      - 1111
+      - 1152
+      - 1256
+      - 1330
+      - 656
+      - 423
+      - 422
+      - 1148
+      - 1336
+      - 716
+      - 695
+      - 416
+      - 1313
+      - 739
+      - 664
+      - 1177
+      - 1151
+      - 408
+      - 1299
+      - 686
+      - 1298
+      - 1274
+      - 1249
+      - 1171
+      - 412
+      - 1305
+      - 432
+      - 712
+      - 735
+      - 1208
+      - 1280
+      - 1282
+      - 1300
+      - 1153
+      - 659
+      - 1146
+      - 1297
+      - 684
+      - 706
+      - 1279
+      - 1304
+      - 1283
+      - 134
+      - 1284
+      - 734
+      - 1308
+      - 270
+      - 674
+      - 1246
+      - 193
+      - 724
+      - 680
+      - 866
+      - 719
+      - 723
+      - 659 2
+      - 1337
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🏳️‍🌈 香港原生1(最新更新时间1月1日)
-      - 🇭🇰 香港BGP-负载均衡主线
-      - 🇭🇰 香港BGP-负载均衡-2
-      - 🇭🇰 香港BGP-负载均衡-3
-      - 🇭🇰 香港BGP-负载均衡-4
-      - 🇭🇰 香港BGP-负载均衡-5
-      - 🇭🇰 香港BGP-负载均衡-6
-      - 🇯🇵 日本-1
-      - 🇯🇵 日本-2
-      - 🇨🇳 台湾-1
-      - 🇨🇳 台湾-2
-      - 🇸🇬 新加坡-1
-      - 🇸🇬 新加坡-2
-      - 🇺🇲 美国-1
-      - 🇺🇲 美国-2
-      - 🇰🇷 韩国-1
-      - 🇰🇷 韩国-2
-      - 🇰🇷 韩国-3
-      - 🇸🇬 SG新加坡001
-      - 🇺🇲 USA美国001
-      - 🇩🇪 DE德国001
-      - 🇯🇵 JP日本001
-      - 🇨🇦 CA加拿大001
-      - 🇦🇺 AU澳大利亚001
-      - 🇬🇧 UK英国001
-      - 🇸🇬 SG新加坡002
-      - 🇸🇬 SG新加坡003
-      - 🇺🇲 USA美国002
-      - 🇺🇲 USA美国003
-      - 🇩🇪 DE德国002
-      - 🇩🇪 DE德国003
-      - 🇯🇵 JP日本002
-      - 🇯🇵 JP日本003
-      - 🇨🇦 CA加拿大002
-      - 🇨🇦 CA加拿大003
-      - 🇦🇺 AU澳大利亚002
-      - 🇦🇺 AU澳大利亚003
-      - 🇬🇧 UK英国002
-      - lu卢森堡001
-      - lu卢森堡002
-      - lu卢森堡003
+      - 1275
+      - 711
+      - 1281
+      - 1301
+      - 1272
+      - 1107
+      - 661
+      - 1111
+      - 1152
+      - 1256
+      - 1330
+      - 656
+      - 423
+      - 422
+      - 1148
+      - 1336
+      - 716
+      - 695
+      - 416
+      - 1313
+      - 739
+      - 664
+      - 1177
+      - 1151
+      - 408
+      - 1299
+      - 686
+      - 1298
+      - 1274
+      - 1249
+      - 1171
+      - 412
+      - 1305
+      - 432
+      - 712
+      - 735
+      - 1208
+      - 1280
+      - 1282
+      - 1300
+      - 1153
+      - 659
+      - 1146
+      - 1297
+      - 684
+      - 706
+      - 1279
+      - 1304
+      - 1283
+      - 134
+      - 1284
+      - 734
+      - 1308
+      - 270
+      - 674
+      - 1246
+      - 193
+      - 724
+      - 680
+      - 866
+      - 719
+      - 723
+      - 659 2
+      - 1337
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -340,47 +501,70 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🏳️‍🌈 香港原生1(最新更新时间1月1日)
-      - 🇭🇰 香港BGP-负载均衡主线
-      - 🇭🇰 香港BGP-负载均衡-2
-      - 🇭🇰 香港BGP-负载均衡-3
-      - 🇭🇰 香港BGP-负载均衡-4
-      - 🇭🇰 香港BGP-负载均衡-5
-      - 🇭🇰 香港BGP-负载均衡-6
-      - 🇯🇵 日本-1
-      - 🇯🇵 日本-2
-      - 🇨🇳 台湾-1
-      - 🇨🇳 台湾-2
-      - 🇸🇬 新加坡-1
-      - 🇸🇬 新加坡-2
-      - 🇺🇲 美国-1
-      - 🇺🇲 美国-2
-      - 🇰🇷 韩国-1
-      - 🇰🇷 韩国-2
-      - 🇰🇷 韩国-3
-      - 🇸🇬 SG新加坡001
-      - 🇺🇲 USA美国001
-      - 🇩🇪 DE德国001
-      - 🇯🇵 JP日本001
-      - 🇨🇦 CA加拿大001
-      - 🇦🇺 AU澳大利亚001
-      - 🇬🇧 UK英国001
-      - 🇸🇬 SG新加坡002
-      - 🇸🇬 SG新加坡003
-      - 🇺🇲 USA美国002
-      - 🇺🇲 USA美国003
-      - 🇩🇪 DE德国002
-      - 🇩🇪 DE德国003
-      - 🇯🇵 JP日本002
-      - 🇯🇵 JP日本003
-      - 🇨🇦 CA加拿大002
-      - 🇨🇦 CA加拿大003
-      - 🇦🇺 AU澳大利亚002
-      - 🇦🇺 AU澳大利亚003
-      - 🇬🇧 UK英国002
-      - lu卢森堡001
-      - lu卢森堡002
-      - lu卢森堡003
+      - 1275
+      - 711
+      - 1281
+      - 1301
+      - 1272
+      - 1107
+      - 661
+      - 1111
+      - 1152
+      - 1256
+      - 1330
+      - 656
+      - 423
+      - 422
+      - 1148
+      - 1336
+      - 716
+      - 695
+      - 416
+      - 1313
+      - 739
+      - 664
+      - 1177
+      - 1151
+      - 408
+      - 1299
+      - 686
+      - 1298
+      - 1274
+      - 1249
+      - 1171
+      - 412
+      - 1305
+      - 432
+      - 712
+      - 735
+      - 1208
+      - 1280
+      - 1282
+      - 1300
+      - 1153
+      - 659
+      - 1146
+      - 1297
+      - 684
+      - 706
+      - 1279
+      - 1304
+      - 1283
+      - 134
+      - 1284
+      - 734
+      - 1308
+      - 270
+      - 674
+      - 1246
+      - 193
+      - 724
+      - 680
+      - 866
+      - 719
+      - 723
+      - 659 2
+      - 1337
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
